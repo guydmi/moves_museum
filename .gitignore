@@ -4,6 +4,10 @@
 #
 /[Ll]ibrary/
 /[Tt]emp/
+<<<<<<< HEAD
+[Tt]emp/
+=======
+>>>>>>> origin/main
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
