@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class PushButton : MonoBehaviour
 {
-    public string animationName;
+    public string animationPath;
+    public string animationName = "animation";
     private XRBaseInteractable interactable;
 
     void Start()
@@ -19,6 +20,7 @@ public class PushButton : MonoBehaviour
         if (other.gameObject.CompareTag("LeftController") || other.gameObject.CompareTag("RightController"))
         {
             // Enregistre le nom de l'animation
+            PlayerPrefs.SetString("animationPath", animationPath);
             PlayerPrefs.SetString("animationName", animationName);
 
             // Charge la nouvelle scène
@@ -31,6 +33,7 @@ public class PushButton : MonoBehaviour
     {
         // Enregistre le nom de l'animation
         PlayerPrefs.SetString("animationName", animationName);
+        PlayerPrefs.SetString("animationPath", animationPath);
         Debug.Log("yollo");
         // Charge la nouvelle scène
         SceneManager.LoadScene("ExhibitionScene");
