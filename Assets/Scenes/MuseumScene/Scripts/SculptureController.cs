@@ -10,7 +10,7 @@ public class SculptureController : MonoBehaviour
 
     void Start()
     {
-
+        CreateSculpture();
         // Initialise les sliders avec les valeurs actuelles de StartFrame et EndFrame
         startFrameSlider.value = sculptureOnTime.StartFrame;
         endFrameSlider.value = sculptureOnTime.EndFrame;
