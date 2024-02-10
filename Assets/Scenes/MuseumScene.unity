@@ -727,6 +727,18 @@ PrefabInstance:
       propertyPath: sculptureId
       value: Rollin2
       objectReference: {fileID: 0}
+    - target: {fileID: 2883940294097345953, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
+      propertyPath: animationPath
+      value: Animations/Dying/Dying
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883940294097345953, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
+      propertyPath: skeletonPrefab
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: 601ee683583511848b1ee3f9f4fdad40, type: 3}
+    - target: {fileID: 5110266579980602763, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
+      propertyPath: animationPath
+      value: Animations/Dying/Dying
+      objectReference: {fileID: 0}
     - target: {fileID: 5888791690884572836, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.22
@@ -898,7 +910,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 8.45e-43, y: 1.36e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1026,7 +1038,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2883940294097345953, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
       propertyPath: sculptureId
-      value: Rollin1
+      value: Crawling
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883940294097345953, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
+      propertyPath: animationPath
+      value: Animations/Crawling
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883940294097345953, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
+      propertyPath: skeletonPrefab
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: 20812c0df1c3eef46a2f8d47a7da4c42, type: 3}
+    - target: {fileID: 3096297959738183266, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
+      propertyPath: m_Name
+      value: SculptureObjectCrawling
+      objectReference: {fileID: 0}
+    - target: {fileID: 5110266579980602763, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5110266579980602763, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
+      propertyPath: animationPath
+      value: Animations/Crawling
       objectReference: {fileID: 0}
     - target: {fileID: 5888791690884572836, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1511,7 +1543,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: -2.8152348e-19, z: 8.45e-43, w: 8e-44}
+  m_BoundingSphereOverride: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1929,7 +1961,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.1e-44, z: 1.5078e-41, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0.33333334, z: 0.33333334, w: 0.33333334}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
