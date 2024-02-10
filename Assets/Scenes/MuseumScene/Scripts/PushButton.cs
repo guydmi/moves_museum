@@ -29,7 +29,7 @@ public class PushButton : MonoBehaviour
     }
            
 
-    void OnButtonPressed(SelectEnterEventArgs args)
+      public void OnButtonPressed(SelectEnterEventArgs args) 
     {
         // Enregistre le nom de l'animation
         PlayerPrefs.SetString("animationName", animationName);
@@ -38,4 +38,17 @@ public class PushButton : MonoBehaviour
         // Charge la nouvelle scène
         SceneManager.LoadScene("ExhibitionScene");
     }
+
+    public void ChargeScene()
+    {
+        // Enregistre le nom de l'animation
+        PlayerPrefs.SetString("animationName", animationName);
+        PlayerPrefs.SetString("animationPath", animationPath);
+        Debug.Log("yollo");
+        // Charge la nouvelle scène
+        SceneManager.LoadScene("ExhibitionScene");
+    }
+
 }
+
+
