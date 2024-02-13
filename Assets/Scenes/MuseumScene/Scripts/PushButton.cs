@@ -6,6 +6,7 @@ public class PushButton : MonoBehaviour
 {
     public string animationPath;
     public string animationName = "animation";
+    public string skeletonPath;
     private XRBaseInteractable interactable;
 
     void Start()
@@ -22,6 +23,7 @@ public class PushButton : MonoBehaviour
             // Enregistre le nom de l'animation
             PlayerPrefs.SetString("animationPath", animationPath);
             PlayerPrefs.SetString("animationName", animationName);
+            PlayerPrefs.SetString("skeletonPath", skeletonPath);
 
             // Charge la nouvelle scène
             SceneManager.LoadScene("ExhibitionScene");
@@ -34,6 +36,7 @@ public class PushButton : MonoBehaviour
         // Enregistre le nom de l'animation
         PlayerPrefs.SetString("animationName", animationName);
         PlayerPrefs.SetString("animationPath", animationPath);
+        PlayerPrefs.SetString("skeletonPath", skeletonPath);
         Debug.Log("yollo");
         // Charge la nouvelle scène
         SceneManager.LoadScene("ExhibitionScene");

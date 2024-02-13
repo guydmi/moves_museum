@@ -36,6 +36,7 @@ public class SculptureController : MonoBehaviour
 
         // Ajoute un listener pour le bouton pour créer la sculpture
         createSculptureButton.onClick.AddListener(CreateSculpture);
+
     }
 
     public void CreateSculpture()
