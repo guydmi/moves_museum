@@ -6,12 +6,24 @@ public class LoadAnimationExhib : MonoBehaviour
 {
     private string animationPath;
     private string animationName;
+    private string skeletonPath;
     private Animation animationComponent;
-    public GameObject skeletonPrefab;
-    private GameObject skeleton;
-    // Start is called before the first frame update
-    void Start()
+    //public GameObject skeletonPrefab;
+    public GameObject skeleton;
+    private AnimationClip clip;
+  
+
+
+
+    void Awake()
     {
+        skeletonPath = PlayerPrefs.GetString("skeletonPath");
+        GameObject skeletonPrefab = Resources.Load<GameObject>(skeletonPath);
+        if (skeletonPrefab == null)
+        {
+            Debug.LogError("failed to load skeleton prefab from " + skeletonPath);
+            return;
+        }
         skeleton = Instantiate(skeletonPrefab);
         animationPath = PlayerPrefs.GetString("animationPath");
         animationName = PlayerPrefs.GetString("animationName");
@@ -30,6 +42,5 @@ public class LoadAnimationExhib : MonoBehaviour
         // Play the animation 
         animationComponent.Play(clip.name);
     }
-
 }
 
