@@ -2143,12 +2143,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2883940294097345953, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
       propertyPath: animationPath
-      value: Animations/HurricaneKick/HurricaneKick
+      value: Animations/Dying/Dying
       objectReference: {fileID: 0}
     - target: {fileID: 2883940294097345953, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
       propertyPath: skeletonPrefab
       value: 
-      objectReference: {fileID: 919132149155446097, guid: c618fbbd392f94748b3cb6b0d50a3de6, type: 3}
+      objectReference: {fileID: 919132149155446097, guid: 601ee683583511848b1ee3f9f4fdad40, type: 3}
     - target: {fileID: 3163409103602209120, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -2165,14 +2165,6 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 2883940294097345953, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
-      propertyPath: animationPath
-      value: Animations/Dying/Dying
-      objectReference: {fileID: 0}
-    - target: {fileID: 2883940294097345953, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
-      propertyPath: skeletonPrefab
-      value: 
-      objectReference: {fileID: 919132149155446097, guid: 601ee683583511848b1ee3f9f4fdad40, type: 3}
     - target: {fileID: 5110266579980602763, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
       propertyPath: animationPath
       value: Animations/Dying/Dying
@@ -2537,7 +2529,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.005e-42, y: -2.9569774e-38, z: 1.005e-42, w: 6e-44}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 4e-45, z: 1.6219e-41, w: 0.33332825}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3979,7 +3971,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 9.1835e-41, y: -3.7134925e-38, z: 1.005e-42, w: 6e-44}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 2.4e-44, z: 1.746e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -4052,7 +4044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1984668758913251958, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 44.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1984668758913251958, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4080,7 +4072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1984668759388320319, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 40
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1984668759388320319, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4116,7 +4108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1984668759906836222, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 40
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1984668759906836222, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4136,7 +4128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1984668759991436502, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 40
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1984668759991436502, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4172,7 +4164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1984668760453204319, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 44.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1984668760453204319, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4192,7 +4184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1984668760497519799, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 40
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1984668760497519799, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4220,7 +4212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1984668760711245992, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 40
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1984668760711245992, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4397,7 +4389,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1, y: 0.125, z: 0.33333334, w: 0.33332825}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 2.5e-44, z: 2.361e-42, w: 5.6634666e-29}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0

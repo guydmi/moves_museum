@@ -20,7 +20,7 @@ public class LoadAnimationExhib : MonoBehaviour
     private string animationPath;
     private string animationName;
     private string skeletonPath;
-    private Animation animationComponent;
+    public Animation animationComponent;
     //public GameObject skeletonPrefab;
     public GameObject skeleton;
     private AnimationClip clip;
@@ -28,7 +28,7 @@ public class LoadAnimationExhib : MonoBehaviour
 
 
 
-    void Awake()
+    void Start()
     {
         skeletonPath = PlayerPrefs.GetString("skeletonPath");
         GameObject skeletonPrefab = Resources.Load<GameObject>(skeletonPath);

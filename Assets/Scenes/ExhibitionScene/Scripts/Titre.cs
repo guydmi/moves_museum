@@ -8,7 +8,6 @@ using TMPro;
 
 public class Titre : MonoBehaviour
 {
-    public Text textField;
     private string animationPath;
     private string animationName;
     private Animation animationComponent;
@@ -20,7 +19,6 @@ public class Titre : MonoBehaviour
         animationPath = PlayerPrefs.GetString("animationPath");
         animationName = PlayerPrefs.GetString("animationName");
         m_Object.text = animationName;
-        textField.text = animationName;
         Debug.Log(animationName);
     }
 
