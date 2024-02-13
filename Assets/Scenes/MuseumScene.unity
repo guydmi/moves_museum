@@ -2165,6 +2165,18 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 2883940294097345953, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
+      propertyPath: animationPath
+      value: Animations/Dying/Dying
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883940294097345953, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
+      propertyPath: skeletonPrefab
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: 601ee683583511848b1ee3f9f4fdad40, type: 3}
+    - target: {fileID: 5110266579980602763, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
+      propertyPath: animationPath
+      value: Animations/Dying/Dying
+      objectReference: {fileID: 0}
     - target: {fileID: 5888791690884572836, guid: a6cb9007fafdc54448ed35eb5a39cd67, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1

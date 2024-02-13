@@ -1,9 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class LoadAnimationExhib : MonoBehaviour
 {
+    public static LoadAnimationExhib instance;
+    
+    void Awake(){
+        if(instance == null){
+            instance = this;
+        }
+        else{
+            Destroy(this);
+        }
+    }
+    
+    
     private string animationPath;
     private string animationName;
     private string skeletonPath;
@@ -40,7 +53,7 @@ public class LoadAnimationExhib : MonoBehaviour
         animationComponent.AddClip(clip, clip.name);
 
         // Play the animation 
-        animationComponent.Play(clip.name);
+        //animationComponent.Play(clip.name);
     }
 }
 
